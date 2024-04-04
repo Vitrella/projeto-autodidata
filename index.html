@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--META TAGS-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="BOLINHO">
+    <meta name="description" content="Site de teste">
+    <meta name="keywords" content="teste, teste01, teste02">
+
+    <title>Programágica</title>
+
+</head>
+
+<body>
+    <!--HTML, TAGS E ETC-->
+    <h1>HTML</h1>
+    <p>O HTML é uma linguagem de tags, serve principalmente para mapear e dar caracteristicas aos elementos que estarão presentes no site.</p>
+    <h2>HEAD</h2>
+    <p>Na HEAD adicionamos informações que serão lidas pelos navegador, mas não necessáriamente aparecerão na página</p>
+    <br>
+    <hr>
+    <h2>META TAGS</h2>
+    <p>As META TAGS ficam na "head" do código, são responsáveis para enviar algumas informações para o servidor, veja abaixo alguma das META TAGS mais usadas:</p>
+
+    <p> <#meta charset="UTF-8"><br>
+        <#meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+        <#meta name="author" content="BOLINHO"><br>
+        <#meta name="description" content="Site de teste"><br>
+        <#meta name="keywords" content="teste, teste01, teste02"></p>
+    <p>(As "#" antes das tags "meta" não são usadas no código em si, estão sendo usadas apenas para o código aparecer no site)</p>
+    <br>
+    <h2>TITLE (NOME DA ABA)</h2>
+    <p>Na HEAD também escolhemos o nome da página, aquele nome que vai aparecer na aba que estamos acessando</p>
+    <p><#title>NOME DA ABA<#/title></p>
+    <br>
+    <hr>
+    <!--TITULOS-->
+    <h2>Títulos de texto</h2>
+    <p>Os titúlos são os "h1,h2,h3,h4,h5,h6", são responsáveis pela hierarquia dos títulos, sendo do h1 o maior e principal, até o h6, o menor e menos "importante"</p>
+    <br>
+    <p>Devemos usar apenas um H1 por página, mas podemos usar depois quantos H2 quiseros. (Essas regras são usadas para rankear melhor o site no google)</p>
+    <br>
+    <hr>
+    <!--MARCAORES DE TEXTO-->
+    <h2>Marcadores de texto</h2>
+    <p>Os marcadores servem para destacar determinadas partes de um texto, e cada um tem sua função:</p><br>
+    <p>TEXTO PARA <i>TESTAR MARCADORES</i> <#i> - Itálico </p><br>
+    <p>TEXTO PARA <b>TESTAR MARCADORES</b> <#b> - Negrito </p><br>
+    <p>TEXTO PARA <mark>TESTAR MARCADORES</mark> <#mark> - Marca texto </p><br>
+    <p>TEXTO PARA <strong>TESTAR MARCADORES</strong> <#strong> - Aparenta como um negrito, mas além disso, diz para o navegador que o texto é importante e relevante no geral </p><br>
+    <p>TEXTO PARA <sub>TESTAR MARCADORES</sub> <#sub> - O texto vai para baixo </p><br>
+    <p>TEXTO PARA <sup>TESTAR MARCADORES</sup> <#sup> - O texto vai para cima </p><br>
+    <p>TEXTO PARA <del>TESTAR MARCADORES</del> <#del> - Risca o texto no meio (bastante usado em descontos) </p><br>
+    <p>TEXTO PARA <u>TESTAR MARCADORES</u> <#u> - Sublinha o texto </p><br>
+    <hr>
+    <br>
+    <!--ELEMENTOS DE CITAÇÃO-->
+    <h2>Elementos de citação</h2>
+    <p>Os Elementos de citação são usados para demarcar, falas, obras (como filmes, livros, peças e etc), endereços e mais:</p><br>
+    <p>Ontem assisti <cite>Titanic</cite> <#cite> - Cita obras</p><br>
+    <p>Então Eduarda disse: <q>Oie sheldinho!</q> - Cita falas adicionando ""</p><br>
+    <p>Sheldon mora na <adress>rua américo brasiliense, 113</adress> - Cita um endereço</p><br>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nam culpa, consequatur impedit officiis ducimus deserunt quod. Essa é a parte mais importante desse paragrafo, provident quos rerum, architecto sunt labore?</p>
+    <p><blockquote>Essa é a parte mais importante desse paragrafo</blockquote></p>
+    <p><#blockquote> É usado para destacar a parte mais importante de um paragrafo, pode ser antes ou depois do mesmo.</p>
+    <hr>
+    <br>
+    <hr>
+    <!--FAZENDO COMENTÁRIOS NO CÓDIGO-->
+    <h2>Fazendo comentátios</h2>
+    <p>O Comentário em um código é um texto que está ali dentro do arquivo, porem não é cosiderado código então não é lido pelo servidor, serve apenas para fazermos anotações em nossos códigos para nos orientarmos.</p>
+    <p><#!--AQUI DENTRO FICA O COMENTÁRIO--></p>
+    <br>
+    <hr>
+    <!--LINK-->
+    <h2>Links</h2>
+    <p>Os links podem ser usados em diversos elementos para conectar páginas tanto internas quanto externas ao projeto, por exemplo:</p>
+    <p>O link abaixo possui o seguinte código: <#a href="https://google.com" target="_blank">Clique aqui e vá para o google</a>, "href" indica para onde o link será direcionado e "target="_blank"" indica que o conteúdo do link deve ser aberto em outra aba do navegador</p>
+    <a href="https://google.com" target="_blank">Clique aqui e vá para o google</a>
+    <br>
+    <p>O link abaixo leva para uma página local do projeto: <#a href="PÁGINA_SECUNDÁRIA/segundapagina.html">Clique e vá para a página secundária</a>
+    </p>
+    <a href="PÁGINA_SECUNDÁRIA/segundapagina.html">Clique e vá para a página secundária</a>
+    <br>
+    <hr>
+    <!--IMAGENS-->
+    <h2>Imagens</h2>
+    <p>Podemos usar imagens de diversas formas em nosso projeto. Podemos tanto usar imagens externas de qualquer site da web, quanto também podemos usar imagens salvas no projeto local, e até mesmo, usá-las com link:</p>
+    <br>
+    <p>A imagem abaixo foi retirada de um site da web:</p>
+    <img src="https://chefbob.com.br/wp-content/uploads/2021/05/2021-05-12-como-deixar-os-gatos-mais-tranquilos.jpg" width="450">
+    <br>
+    <p>A imagem abaixo é do projeto local:</p>
+    <img src="img/brownie.jpg" width="300">
+    <br>
+    <p>A imagem abaixo é do projeto local e tem um mapeamento de link nela:</p>
+    <!-- Image Map Generated by http://www.image-map.net/ -->
+    <img src="img/dogos (1).jpg" usemap="#image-map">
+
+    <map name="image-map">
+    <area target="_blank" alt="DOGO01" title="DOGO01" href="https://imageresizer.com/resize/download/660dcc19b6f20f7411668fc6" coords="74,130,74,113,86,120,98,123,106,119,105,138,105,160,114,177,125,208,124,225,111,229,104,233,97,233,94,225,82,228,72,229,77,223,77,210,73,196,68,176,70,155,70,144,73,136" shape="poly">
+    <area target="_blank" alt="DOGO02" title="DOGO02" href="https://www.google.com/search?q=cachorros&amp;client=opera-gx&amp;hs=Q2r&amp;sca_esv=82662e44566a7af0&amp;udm=2&amp;biw=1495&amp;bih=746&amp;sxsrf=ACQVn0-aeVdq4RYuz1BhUEr04DjKsCZUgA%3A1712180093515&amp;ei=fcsNZtqPH8-ChuMPv-CZ0AM&amp;ved=0ahUKEwiawo_y_6aFAxVPgWEGHT9wBjoQ4dUDCBA&amp;uact=5&amp;oq=cachorros&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiCWNhY2hvcnJvczIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgsQABiABBixAxiDATIFEAAYgARI-hhQkw5Y6hVwAngAkAEAmAH_AaABxQuqAQUwLjcuMrgBA8gBAPgBAZgCC6AC4AvCAgQQIxgnwgINEAAYgAQYigUYQxixA8ICDhAAGIAEGIoFGLEDGIMBwgIKEAAYgAQYigUYQ5gDAIgGAZIHBTIuNy4yoAesOQ&amp;sclient=gws-wiz-serp#vhid=nPKxIlG_xTi4VM&amp;vssid=mosaic" coords="351,148,335,161,333,173,338,181,331,196,327,209,316,210,313,214,312,220,324,223,338,228,346,228,353,231,361,231,368,223,366,212,370,198,367,182,370,169,370,155,360,148,342,149" shape="poly">
+    </map>
+    <br>
+    <p>A imagem abaixo possui um link nela toda e vem de uma página da web:</p>
+    <a href="https://google.com" target="_blank">
+    <img src="https://love.doghero.com.br/wp-content/uploads/2019/09/Corgi-1.jpg-1.jpg" width="300"></a>
+    <br>
+    <p>Também conseguimos inserir imagens dentro de elementos, por exemplo:</p>
+    <h2><img src="img/sokoke.jpg" width="75">Essa é a Taylor Swift</h2>
+    <p>Nesse exemplo a imagem está dentro de um elemento H2</p>
+    <br>
+    <hr>
+    <!--TABELAS-->
+    <h2>Criando tabelas</h2>
+    <p>Usamos tabelas para diversas funcionalidades. Separamos o código entre linhas e colunas:</p>
+    <table border="2" width="50%">
+        <tr>
+            <th>NOME</th>
+            <th>SOBRENOME</th>
+            <th>IDADE</th>
+        </tr>
+        <tr>
+            <th>ELDO</th>
+            <th>DA SILVA</th>
+            <th>57</th>
+        </tr>
+        <tr>
+            <th>TAYLOR</th>
+            <th>SWIFT</th>
+            <th>10</th>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <!--LISTAS ORDENADAS E NÃO ORDENADAS-->
+    <h2>Listas ordenadas e não ordenadas:</h2>
+    <p>As listas servem para listar itens das seguintes maneiras:</p>
+    <br>
+    <p>Listas não ordenadas:</p>
+    <ul>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Molho</li>
+    </ul>
+    <p>Listas ordenadas:</p>
+    <ol>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Molho</li>
+    </ol>
+    <hr>
+    <br>
+    <!--INCORPORANDO ELEMENTOS COM O IFRAME-->
+    <h2>Incorporando elementos internos e externos usando iframe</h2>
+    <p>Abaixo foi incorporado um site da web, ele continua 100% funcional:</p>
+    <iframe src="https://www.image-map.net" width="600" height="300"></iframe>
+    <br>
+    <p>Abaixo linkamos um iframe num texto:</p>
+    <a target="iframe01" href="https://www.image-map.net">Clique aqui e abra o iframe</a>
+    <br>
+    <iframe src="" title="iframe google" name="iframe01" width="600" height="300" style="border: none;"></iframe>
+    <br>
+    <p>Também é possível incorporar videos copiando os códigos diretamente do youtube:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/A1BaZr82XJI?si=vlJXRWzesCTZrlUX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <hr>
+    <!--FORMULÁRIOS-->
+    <h2>Formulários</h2>
+    <p>Os Formulários são uma das coisas mais importantes no HTML. Eles são responsáveis por enviar dados de entrada para o servidor, e com eles, é póssivel criar coisas como, aréa de login, criação de cadastros, fazer uploads de imagens e muito mais. Basicamente os formulários são os maiores responsáveis pela comunicação entre o usuário do site e o back ending, vamos prosseguir com os formulários no link abaixo:</p>
+    <br>
+    <a href="formularios.html">Formulários</a>
+    <br>
+
+
+
+
+    
+</body>
+
+</html>

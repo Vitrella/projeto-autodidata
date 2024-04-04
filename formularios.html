@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulário aqui</h1>
+    <br>
+    <p>Todo formulário tem a tag pai "form", que é seguida de diversas tags com funções diferentes, vamos ver alguns exemplos:</p>
+    <br>
+    <p>Uma das tags filho mais usadas é o "input" que possui diversos tipo ou "type", é usada para enviar dados de entrada:</p>
+    <!--FORMULÁRIO-->
+    <form>
+        <!--CAMPO DE NOME-->
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu Nome" required>
+        <br>
+        <br>
+        <!--CAMPO DE SOBRENOME-->
+        <label for="campo_sobrenome">Sobrenome:</label>
+        <input id="campo_sobrenome" type="text" placeholder="Digite seu Sobrenome" required>
+        <br>
+        <br>
+        <!--CAMPO DE EMAIL-->
+        <label for="campo_email">E-mail:</label>
+        <input id="campo_email" type="email" placeholder="Digite seu E-mail" required>
+        <br>
+        <br>
+        <!--CAMPO DE SENHA-->
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password" placeholder="Digite sua senha" required>
+        <br><br>
+        <!--CAMPOS TIPO RADIO-->
+        <h2>Animal de estimação</h2>
+        <input type="radio" name="animal" value="cachorro" id="dog">
+        <label for="dog">Cachorro</label>
+        <br><br>
+        <input type="radio" name="animal" value="gato" id="cat">
+        <label for="cat">Gato</label>
+        <br><br>
+        <!--CAMPO DE CHECKLIST-->
+        <h2>Oque você tem em casa?</h2>
+        <input type="checkbox" name="armário" value="armário" id="armário">
+        <label for="armário">Armário</label>
+        <br><br>
+        <input type="checkbox" name="sofá" value="sofá" id="sofá">
+        <label for="sofá">Sofá</label>
+        <br><br>
+        <!--TAG SELECT-->
+        <h2>Agora vamos usar a tag "select"</h2>
+        <p>Explicação da tag select</p>
+        <h2>Escolha uma cor:</h2>
+        <select name="cores">
+            <option selected disabled value="">Escolha uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="verde">Verde</option>
+            <option value="azul">Azul</option>
+        </select>
+        <br><br>
+        <!--CAMPO DE TEXTO-->
+        <h2>Digite seu texto:</h2>
+        <textarea required name="mensagem" rows="15" cols="65" placeholder="Digite seu texto aqui"></textarea>
+        <br><br>
+        <!--BOTÃO DE ENVIAR FORMULÁRIO-->
+        <input type="submit" value="ENVIAR FORMULÁRIO">
+        <br><br>
+
+    </form>
+    <br>
+    <hr>
+    <br>
+    <!--BOTÃO DE VOLTAR PARA A PÁGINA PRINCIPAL-->
+    <a href="index.html"><button name="voltar">Voltar para página principal</button></a>
+    <br>
+    
+</body>
+</html>
